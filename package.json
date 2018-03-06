@@ -1,6 +1,6 @@
 {
   "name": "egg-static-webpack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A plugin based on Webpack and Egg.js for building static files",
   "eggPlugin": {
     "name": "staticWebpack",
@@ -39,11 +39,6 @@
     "lint": "eslint .",
     "pkgfiles": "egg-bin pkgfiles"
   },
-  "files": [
-    "app.js",
-    "agent.js",
-    "config"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gssify/egg-static-webpack.git"
