@@ -1,3 +1,1 @@
 # egg-static-plugin
-
-# TODO
