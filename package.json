@@ -1,0 +1,57 @@
+{
+  "name": "egg-staitc-webpack",
+  "version": "1.0.0",
+  "description": "A plugin based on Webpack and Egg.js for building static files",
+  "eggPlugin": {
+    "name": "staticWebpack",
+    "env": "local"
+  },
+  "keywords": [
+    "egg",
+    "eggStaticWebpack",
+    "egg-staitc-webpack"
+  ],
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-webpack-dev-middleware": "^2.0.2",
+    "koa-webpack-hot-middleware": "^1.0.3",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "egg": "^2.0.0",
+    "egg-bin": "^4.3.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.13.0",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "pkgfiles": "egg-bin pkgfiles"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gssify/egg-static-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gssify/egg-static-webpack/issues"
+  },
+  "homepage": "https://github.com/gssify/egg-static-webpack#readme",
+  "author": "gssify@gmail.com",
+  "license": "MIT"
+}
