@@ -1,3 +1,4 @@
+'use strict'
 const constant = require('./lib/constant')
 const Server = require('./lib/server')
 

@@ -1,5 +1,4 @@
 'use strict'
-
 const constant = require('./lib/constant')
 
 module.exports = app => {

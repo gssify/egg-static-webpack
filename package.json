@@ -1,6 +1,6 @@
 {
   "name": "egg-static-webpack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A plugin based on Webpack and Egg.js for building static files",
   "eggPlugin": {
     "name": "staticWebpack",
@@ -12,13 +12,14 @@
     "egg-static-webpack"
   ],
   "dependencies": {
+    "@koa/cors": "^2.2.1",
     "koa": "^2.5.0",
     "koa-webpack-dev-middleware": "^2.0.2",
     "webpack": "^3.11.0"
   },
   "devDependencies": {
     "egg": "^2.0.0",
-    "egg-bin": "^4.3.0",
+    "egg-bin": "^4.4.0",
     "egg-ci": "^1.8.0",
     "egg-mock": "^3.13.0",
     "eslint": "^4.11.0",

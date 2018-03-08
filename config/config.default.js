@@ -1,3 +1,5 @@
+'use strict'
+
 exports.staticWebpack = {
   port: 9000,
   webpackConfig: {},
